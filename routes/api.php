@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::post('authenticate', 'AuthenticationController@doLogin')->name('authenticate.store');
+Route::resource('minions', 'MinionController', ['parameters' => ['minions' => 'id']]);
