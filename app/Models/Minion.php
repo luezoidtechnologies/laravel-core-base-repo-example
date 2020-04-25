@@ -11,7 +11,7 @@ use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class Minion
- * 
+ *
  * @property int $id
  * @property string $name
  * @property int $total_eyes
@@ -24,31 +24,28 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Minion extends Model
 {
-	protected $table = 'minions';
-
-	protected $casts = [
-		'total_eyes' => 'int',
-		'has_hairs' => 'bool'
-	];
-
-	protected $fillable = [
-		'name',
-		'total_eyes',
-		'favourite_sound',
-		'has_hairs'
-	];
-
-	public $filterable = [
-	    'total_eyes',
+    public $filterable = [
+        'total_eyes',
+        'has_hairs',
+        'created_at',
+        'updated_at'
+    ];
+    public $createExcept = [
+        'id'
+    ];
+    public $updateExcept = [
+        'total_eyes',
         'has_hairs'
     ];
-
-	public $createExcept = [
-	    'id'
+    protected $table = 'minions';
+    protected $casts = [
+        'total_eyes' => 'int',
+        'has_hairs' => 'bool'
     ];
-
-	public $updateExcept = [
-	    'total_eyes',
-	    'has_hairs'
+    protected $fillable = [
+        'name',
+        'total_eyes',
+        'favourite_sound',
+        'has_hairs'
     ];
 }
