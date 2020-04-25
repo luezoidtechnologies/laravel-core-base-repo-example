@@ -1,12 +1,12 @@
 <?php
 
 
-namespace App\Http\Request;
+namespace App\Http\Requests;
 
 
 use Luezoid\Laravelcore\Requests\BaseRequest;
 
-class MinionCreateRequest extends BaseRequest
+class MinionUpdateRequest extends BaseRequest
 {
     public function rules()
     {

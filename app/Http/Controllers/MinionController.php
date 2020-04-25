@@ -8,9 +8,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Request\MinionCreateRequest;
-use App\Http\Request\MinionDeleteRequest;
-use App\Http\Request\MinionUpdateRequest;
+use App\Http\Requests\MinionCreateRequest;
+use App\Http\Requests\MinionDeleteRequest;
+use App\Http\Requests\MinionUpdateRequest;
 use App\Repositories\MinionRepository;
 use Luezoid\Laravelcore\Http\Controllers\ApiController;
 use Luezoid\Laravelcore\Jobs\BaseJob;
