@@ -27,4 +27,12 @@ class MinionController extends ApiController
 
     protected $deleteJob = BaseJob::class;
     protected $deleteRequest = MinionDeleteRequest::class;
+
+    protected $indexWith = [
+        'leading_mission'
+    ];
+
+    protected $showWith = [
+        'leading_mission'
+    ];
 }
