@@ -1860,16 +1860,16 @@
         },
         {
             "name": "luezoid/laravel-core",
-            "version": "v7.0.4",
+            "version": "v7.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luezoidtechnologies/laravel-core.git",
-                "reference": "cb352582e61fe4a2af57e32a20c36015e41bb68e"
+                "reference": "15cea3662d453f5a598aa4d83fc73bc0f1bbc4b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luezoidtechnologies/laravel-core/zipball/cb352582e61fe4a2af57e32a20c36015e41bb68e",
-                "reference": "cb352582e61fe4a2af57e32a20c36015e41bb68e",
+                "url": "https://api.github.com/repos/luezoidtechnologies/laravel-core/zipball/15cea3662d453f5a598aa4d83fc73bc0f1bbc4b8",
+                "reference": "15cea3662d453f5a598aa4d83fc73bc0f1bbc4b8",
                 "shasum": ""
             },
             "require": {
@@ -1909,7 +1909,7 @@
                     "email": "manoj@luezoid.com"
                 }
             ],
-            "time": "2020-04-25T08:54:18+00:00"
+            "time": "2020-04-25T16:07:45+00:00"
         },
         {
             "name": "monolog/monolog",
