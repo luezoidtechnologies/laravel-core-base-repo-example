@@ -29,10 +29,12 @@ class MinionController extends ApiController
     protected $deleteRequest = MinionDeleteRequest::class;
 
     protected $indexWith = [
+        'missions',
         'leading_mission'
     ];
 
     protected $showWith = [
+        'missions',
         'leading_mission'
     ];
 }

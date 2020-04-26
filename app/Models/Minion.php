@@ -7,6 +7,7 @@
 namespace App\Models;
 
 use Carbon\Carbon;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 
 /**
@@ -21,6 +22,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property Carbon $updated_at
  *
  * @property Mission $leading_mission
+ * @property Collection|Mission[] $missions
  *
  * @package App\Models
  */
@@ -54,5 +56,12 @@ class Minion extends Model
     public function leading_mission()
     {
         return $this->hasOne(Mission::class, 'lead_by_id');
+    }
+
+    public function missions()
+    {
+        return $this->belongsToMany(Mission::class, 'minion_mission_mapping')
+            ->withPivot('id')
+            ->withTimestamps();
     }
 }
