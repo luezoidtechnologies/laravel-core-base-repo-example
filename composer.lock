@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "961c032c4b12387b2b486e3a0ea927c5",
+    "content-hash": "fafc81e1911f932937c137472734a4fd",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1860,16 +1860,16 @@
         },
         {
             "name": "luezoid/laravel-core",
-            "version": "v7.0.5",
+            "version": "v7.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luezoidtechnologies/laravel-core.git",
-                "reference": "15cea3662d453f5a598aa4d83fc73bc0f1bbc4b8"
+                "reference": "0551c6f53b0d9fdf45ea441e23ba668a32e53d22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luezoidtechnologies/laravel-core/zipball/15cea3662d453f5a598aa4d83fc73bc0f1bbc4b8",
-                "reference": "15cea3662d453f5a598aa4d83fc73bc0f1bbc4b8",
+                "url": "https://api.github.com/repos/luezoidtechnologies/laravel-core/zipball/0551c6f53b0d9fdf45ea441e23ba668a32e53d22",
+                "reference": "0551c6f53b0d9fdf45ea441e23ba668a32e53d22",
                 "shasum": ""
             },
             "require": {
@@ -1909,7 +1909,7 @@
                     "email": "manoj@luezoid.com"
                 }
             ],
-            "time": "2020-04-25T16:07:45+00:00"
+            "time": "2020-04-28T19:28:21+00:00"
         },
         {
             "name": "monolog/monolog",
